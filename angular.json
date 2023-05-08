@@ -73,8 +73,12 @@
             },
             "development": {
               "port": 4210,
-              "browserTarget": "admin:build:development"
+              "browserTarget": "admin:build:development",
+              "proxyConfig": "proxy.conf.js"
             }
+          },
+          "options": {
+            "proxyConfig": "proxy.conf.js"
           },
           "defaultConfiguration": "development"
         },
@@ -174,8 +178,12 @@
             },
             "development": {
               "port": 4220,
-              "browserTarget": "public:build:development"
+              "browserTarget": "public:build:development",
+              "proxyConfig": "proxy.conf.js"
             }
+          },
+          "options": {
+            "proxyConfig": "proxy.conf.js"
           },
           "defaultConfiguration": "development"
         },

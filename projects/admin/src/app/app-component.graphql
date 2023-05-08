@@ -1,0 +1,12 @@
+query AppComponentTestsLoad {
+  gameTests {
+    edges {
+      node {
+        id
+        name
+        created
+        updated
+      }
+    }
+  }
+}
